@@ -193,8 +193,9 @@ body {
 
 #blogroll li a {
 	text-decoration: none;
-	color: lightgray;
+	color: rgb(92, 92, 92);
 	font: -webkit-mini-control;
+	color: rgb(92, 92, 92);
 	font-size: 10px;
 	margin-left: 75px
 }
@@ -208,12 +209,13 @@ body {
 
 #textwidget h4 {
 	font: message-box;
+	color: rgb(92, 92, 92);
 	font-size: 14px;
 	color: white;
 }
 
 #textwidget p {
-	color: lightgray;
+	color: rgb(92, 92, 92);
 }
 
 #metawidget {
@@ -243,7 +245,7 @@ body {
 
 #metawidget li a {
 	text-decoration: none;
-	color: lightgray;
+	color: rgb(92, 92, 92);
 	font: -webkit-mini-control;
 	font-size: 10px;
 	float: left;
