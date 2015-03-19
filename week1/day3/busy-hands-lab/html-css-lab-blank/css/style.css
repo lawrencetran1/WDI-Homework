@@ -1,0 +1,177 @@
+body {
+	margin: 0;
+}
+
+#container {
+	height: 940px;
+	width: 1000px;
+	position: relative;
+}
+
+#background1 img {
+	position: absolute;
+	left: -20px;
+	top: 0px;
+	width: 1080px;
+	height: 392px;
+	z-index: -1;
+}
+
+#background2 img {
+	position: absolute;
+	left: -20px;
+	top: 392px;
+	width: 1080px;
+	height: 550px;
+	z-index: -1;
+	opacity: 0.2;
+}
+
+#nav {
+	width: 1060px;
+	float: left;
+	background-color: black;
+}
+#nav ul {
+	list-style: none;
+	width: 800px;
+	margin: 0 auto;
+	margin-left: 20px;
+}
+#nav li {
+	float: left; }
+#nav li a {
+	display: block;
+	padding: 20px 5px;
+	color: white;
+	text-decoration: none;
+	font: menu;
+	text-indent: 50px;
+}
+#nav li a:hover {
+	color: yellow;
+}
+
+#box1 {
+	padding-left: 100px;
+	padding-top: 100px;
+}
+
+#box2 {
+	width: 865px;
+	height: 100px;
+	border: solid 1px lightgray;
+	margin-left: 115px;
+}
+
+#bottom-box {
+	width: 865px;
+	height: 250px;
+	margin-left: 115px;
+	margin-top: 20px;
+	position: absolute;
+}
+
+#graybox {
+	width: 1000px;
+	height: 400px;
+	background-color: lightgray;
+	position: absolute;
+}
+
+#homebox1 {
+	position: relative;
+	width: 33.3%;
+	height: 100%;
+	float: left;
+}
+
+#homebox1 h2 {
+	font: message-box;
+	font-size: 24px;
+}
+
+#homebox2 {
+	position: relative;
+	width: 33.3%;
+	height: 100%;
+	float: left;
+}
+
+#homebox2 h2 {
+	font: message-box;
+	font-size: 24px;
+}
+
+#homebox3 {
+	position: relative;
+	width: 33.3%;
+	height: 100%;
+	float: right;
+}
+
+#homebox3 h2 {
+	font: message-box;
+	font-size: 24px;
+}
+
+#float-right {
+	float: right;
+	margin-right: 20px;
+}
+
+#float-left {
+	float: left;
+	width: 600px;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+
+#float-left p {
+	font: -webkit-control;
+	font-size: 14px;
+}
+
+#small-left {
+	float: left;
+	width: 85%;
+	font-size: 8px;
+	font: -webkit-mini-control;
+}
+
+#small-left a {
+	text-decoration: none;
+	  color: rgb(73, 164, 253);
+}
+
+#footer {
+	width: 1060px;
+	height: 20px;
+	margin-bottom: 0;
+	background-color: black;
+	position: absolute;
+}
+
+#banner {
+	max-height: 88%;
+	max-width: 88%;
+	margin-top: 10px;
+	margin-left: 110px;
+}
+
+#photo {
+	border: solid 5px lightgray;
+	padding: 1px;
+}
+
+#shadow {
+	max-height: 88%;
+	max-width: 88%;
+	margin-top: -5px;
+	margin-left: 110px;
+}
+
+#quote {
+	margin-top: 20px;
+	margin-right: 10px;
+}
